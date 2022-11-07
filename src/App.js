@@ -19,15 +19,12 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
-  }
+  // applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
+  //   this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+  //   document.documentElement.lang = pickedLanguage;
+  //   var resumePath = `res_primaryLanguage.json`;
+  //   this.loadResumeFromPath(resumePath);
+  // }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
@@ -44,15 +41,12 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.loadResumeFromPath(`res_primaryLanguage.json`);
   }
 
   loadResumeFromPath(path) {
     $.ajax({
-      url: path,
+      url: `res_primaryLanguage.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
@@ -84,7 +78,7 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
+          {/* <div
             onClick={() =>
               this.applyPickedLanguage(
                 window.$primaryLanguage,
@@ -115,7 +109,7 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
-          </div>
+          </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}

@@ -1,20 +1,25 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Reza Bigdeli",
+      "titles": [ "Web Developer", "Computational Geometry Researcher", "UWaterloo CS Master's Graduate" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/bigheart7697",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/bigheart7697",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/reza-bigdeli/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "images/myProfile.jpg"
+      "image": "reza1.jpg"
     },
     "skills": {
       "icons": [
@@ -34,8 +39,8 @@
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "90"
         },
         {
@@ -44,23 +49,23 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "Django",
+          "class": "devicon-django-plain",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Java",
+          "class": "devicon-java-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Postgresql",
+          "class": "devicon-postgresql-plain",
           "level": "60"
         }
       ]
