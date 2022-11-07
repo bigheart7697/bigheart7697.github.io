@@ -1,0 +1,132 @@
+{
+    "basic_info": {
+      "description_header": "Welcome to my page",
+      "description": "I'm Reza Bigdeli. I have recently graduated from the University of Waterloo with a Master's degree in Computer Science. Before that, I got my Bachelor's degree from Sharif University of Technology in Software Engineering in 2020. I am mostly interested in 1) research on topics related to Algorithms and Combinatorial Optimization 2) web application development. I have gained experience in both areas through my studies and internships. As a researcher, I have done research in areas like Computational Geometry, Graph Theory, and Approximation Algorithms. In internships and web development projects, I have worked with technologies like Django, Django Rest Framework, React, Redux, Angular, and Postgresql. Currently, I am looking for a Sofware Engineering job - preferably as a full-stack developer - in Canada.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Education and Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Kapo Online Shop",
+        "startDate": "2020",
+        "description": "This was a complete experience of creating a web application. Working in a small group using Scrum methodology, we went through many stages of product development: project planning, sprint planning, project management (using Taiga), implementation (using web technologies like Django Rest Framework, React, and Redux), testing, and deploying. I worked as a full-stack developer in this project.",
+        "images": [
+          "images/portfolio/animal-shelter/Logo1.png",
+          "images/portfolio/animal-shelter/p3.jpg"
+        ],
+        "url": "https://github.com/bigheart7697/Kapo",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          }
+        ]
+      },
+      {
+        "title": "Kapo Currency Exchange System",
+        "startDate": "2018",
+        "description": "This was my first complete web development project - developed for the \"System Design\" course. We produced a proposal, Work Breakdown Structure (WBS), and User Case Diagram, and implemented the application. During this project, I worked with Django and HTML as a back-end developer.",
+        "images": [
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg"
+        ],
+        "url": "https://github.com/Allarious/Kapo/tree/back",
+        "technologies": [
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          }
+        ]
+      },
+      {
+        "title": "Children of Time",
+        "startDate": "2016",
+        "description": "The first and only game I have developed until now. It was for the \"Advanced programming\" course using Java programming language. It is an RPG based on the famous game \"Children of Time\".",
+        "images": [
+          "images/portfolio/adventure/p3.jpg",
+          "images/portfolio/adventure/p4.jpg"
+        ],
+        "url": "https://github.com/bigheart7697/childrenOfTime",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Universiy of Waterloo",
+        "title": "Graduate Research Assistant",
+        "years": "9.2020 - 8.2022",
+        "mainTech": [
+          "Connectivity Properties of the Triangulation Flip Graph"
+        ],
+        "class": "fas fa-graduation-cap",
+        "technologies": [
+          "Algorithms",
+          "Computational Geometry",
+          "Graph Theory",
+          "Graph Connectivity",
+          "Triangulations",
+          "Flip Graph",
+          "Teaching Assitant"
+        ]
+      },
+      {
+        "company": "Tavana System",
+        "title": "Front-End Developer Intern",
+        "years": "05.2020 - 07.2020",
+        "mainTech": [
+          "Angular 6"
+        ],
+        "class": "fab fa-angular",
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "HTML 5",
+          "CSS 3"
+        ]
+      },
+      {
+        "company": "Sharif University of Technology",
+        "title": "Student",
+        "years": "9.2015 - 8.2020",
+        "mainTech": [
+          "Metric Graph Bipartitioning"
+        ],
+        "class": "fas fa-graduation-cap",
+        "technologies": [
+          "Algorithms",
+          "Data Structures",
+          "Computational Geometry",
+          "Graph Theory",
+          "Approximation Algorithms",
+          "Algorithmic Game Theory",
+          "Artificial Intelligence",
+          "Teaching Assitant"
+        ]
+      }
+    ]
+  }
