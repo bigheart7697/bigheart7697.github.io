@@ -19,12 +19,6 @@ class App extends Component {
     };
   }
 
-  // applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-  //   this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-  //   document.documentElement.lang = pickedLanguage;
-  //   var resumePath = `res_primaryLanguage.json`;
-  //   this.loadResumeFromPath(resumePath);
-  // }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
@@ -78,38 +72,6 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          {/* <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
-          </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}

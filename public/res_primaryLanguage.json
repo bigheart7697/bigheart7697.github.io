@@ -40,7 +40,7 @@
         "description": "This was my first complete web development project - developed for the \"System Design\" course. We produced a proposal, Work Breakdown Structure (WBS), and User Case Diagram, and implemented the application. During this project, I worked with Django and HTML as a back-end developer.",
         "images": [
           "images/portfolio/photography/p3.jpg",
-          "images/portfolio/photography/p4.jpg"
+          "images/portfolio/photography/p4.JPG"
         ],
         "url": "https://github.com/Allarious/Kapo/tree/back",
         "technologies": [
@@ -63,8 +63,8 @@
         "startDate": "2016",
         "description": "The first and only game I have developed until now. It was for the \"Advanced programming\" course using Java programming language. It is an RPG based on the famous game \"Children of Time\".",
         "images": [
-          "images/portfolio/adventure/p3.jpg",
-          "images/portfolio/adventure/p4.jpg"
+          "images/portfolio/adventure/p3.JPG",
+          "images/portfolio/adventure/p4.JPG"
         ],
         "url": "https://github.com/bigheart7697/childrenOfTime",
         "technologies": [

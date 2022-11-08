@@ -16,7 +16,7 @@ html {
 }
 
 .title-container {
-	height: 50px;
+	height: 100px;
 }
 
 .title-styles {
@@ -237,6 +237,10 @@ header h1 {
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.badge span {
+	white-space: break-spaces;
 }
 
 .experience-badge {
