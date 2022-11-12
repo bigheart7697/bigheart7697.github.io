@@ -39,7 +39,7 @@
         "startDate": "2018",
         "description": "This was my first complete web development project - developed for the \"System Design\" course. We produced a proposal, Work Breakdown Structure (WBS), and User Case Diagram, and implemented the application. During this project, I worked with Django and HTML as a back-end developer.",
         "images": [
-          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p3.JPG",
           "images/portfolio/photography/p4.JPG"
         ],
         "url": "https://github.com/Allarious/Kapo/tree/back",
